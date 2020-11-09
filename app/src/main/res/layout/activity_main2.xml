@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="103dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/Nameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Name :"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/NameValue"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:fontFamily="@font/aladin"
+        android:drawableLeft="@drawable/ic_face"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="210dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Email :"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/EmailValue"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="240dp"
+        android:drawableLeft="@drawable/ic_mail"
+        android:ems="10"
+        android:fontFamily="@font/aladin"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Departmentid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Department :"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/DepartmentValue"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="320dp"
+        android:drawableLeft="@drawable/ic_department"
+        android:ems="10"
+        android:fontFamily="@font/aladin"
+        android:inputType="textPersonName"
+        android:text="Department"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Batchid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Batch :"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/BatchValue"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:drawableLeft="@drawable/ic_batach"
+        android:ems="10"
+        android:fontFamily="@font/aladin"
+        android:inputType="textPersonName"
+        android:text="Batch"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Countryid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Country :"
+        android:textColor="#009688"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/CountryValue"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:drawableLeft="@drawable/ic_countryid"
+        android:ems="10"
+        android:fontFamily="@font/aladin"
+        android:inputType="textPersonName"
+        android:text="Country"
+        android:textSize="14sp" />
+
+</RelativeLayout>
